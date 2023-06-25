@@ -1,0 +1,414 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    height: 60px;   
+}
+.logo{
+    width: 120px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 5px;
+    float: left;
+    color: blue;
+}
+.menu{
+    float: left;
+    margin-left: 40%;
+}
+.menu ul{
+    list-style: none;
+    margin-top: 25px;
+    
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+}
+.menu li{
+    display: inline;
+    
+}
+.signup{
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.signup button{
+   width: 90px;
+   height: 40px;
+   background-color: black;
+   color: white;
+}
+.section1 h1,p{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.section2{
+    width: 100%;
+   min-height: 500px;
+    margin-top: 10px;
+    
+}
+.left{
+    float: left;
+}
+.left h1{
+    margin-top: 100px;
+    margin-left: 50px;
+    line-height: 45px;
+}
+.left p{
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 25px;
+}
+.left button{
+    width: 160px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    margin: 50px 50px;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+}
+.left h4{
+    margin-left: 50px;
+}
+.left span{
+    background-color: blue;
+    color: white;
+    padding: 3px;
+}
+.right{
+    float: right;
+} 
+.right img{
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    margin-right: 90px;
+}   
+.section3{
+    width: 100%;
+    min-height: 400px;
+    background-color: blue;
+    margin-top: 50px;
+}
+.section3 h1{
+    padding: 15px;
+    padding-top: 50px;
+    color: white;
+}
+.section3 img{
+    margin: 10px 20px;
+    border-radius: 12px;
+}
+.section4{
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+    background-color: blue;
+}
+.section4 .left{
+    float: left;
+}
+.section4 .left h1{
+    color: white;
+}
+.section4 .left button{
+    background-color: rgb(7, 90, 7);
+    color: white;
+}
+.section4 .right{
+    float: left;
+}
+.section4 .right h2{
+    margin-left: 100px ;
+    margin-top: 100px;
+    color: white;
+}
+.section4 .right p{
+    margin-top: 15px;
+    margin-left: 100px;
+    color: white;
+    line-height: 26px;
+    font-size: 15px;
+}
+
+.section6{
+    width: 100%;
+    min-height: 500px;
+    margin-top: 20px;
+    background-color: white;
+}
+
+
+.section6 .left button{
+    background-color: rgb(60, 16, 180);
+    color: white;
+    margin-left: 100px;
+}
+.section6 .right{
+    float: right;
+}
+.section6 .left h2{
+    margin-left: 100px ;
+    margin-top: 100px;
+    color: black;
+}
+.section6 .left p{
+    margin-top: 15px;
+    margin-left: 100px;
+    color: black;
+    line-height: 26px;
+    font-size: 15px;
+}
+.section5{
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+}
+.section5 h1{
+    margin: 50px 40px;
+}
+.section5 .first{
+    float: left;
+   margin-left: 50px;
+   border-left: 2px solid black;
+   padding-left: 20px;
+}
+.section5 .second{
+    float: left;
+    margin-left: 300px;
+    color: black;
+}
+.section5 .third{
+    float: right;
+    margin-right: 230px;
+    color: black;
+}
+.section7{
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+    margin-top: 20px;
+    position: relative;
+}
+.section7 .box{
+    width: 80%;
+    height: 300px;
+    border: 2px solid white;
+    margin: 50px 120px;
+    position: absolute;
+    border-radius: 10px;
+}
+.section7 .box .left{
+    width: 70%;
+    height: 300px;
+}
+.section7 .box .left h1{
+    margin-top: 15px;
+    color: white;
+}
+.section7 .box .left h5{
+    margin: 10px 50px;
+    color: white;
+}
+.section7 .box .left span{
+    background-color: white;
+    color: blue;
+}
+.section7 .box .left h5 a{
+    color: white;
+}
+.section7 .box .right{
+    float: left;
+    margin: 20px 45px;
+}
+.section7 .box .right .first, .second, .third{
+    margin-bottom: 35px;
+    color: white;
+}
+.section7 .box .right .first{
+    border-left: 2px solid white;
+    
+}
+
+.section8{
+    width: 100%;
+    height: 710px;
+    background-color: blue;
+    margin-top: 20px;
+}
+.section8 h1{
+    color: white;
+    padding: 20px;
+}
+.section8 .bos{
+    width: 100%;
+}
+.section8 .bos1, .bos2{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 15px 50px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+.section8 .bos2{
+    margin-left: 300px;
+}
+
+
+.bom1, .bom2, .bom3, .bom4{
+    width: 120px;
+    height: 60px;
+    background-color: white;
+    margin: 50px 80px;
+    position: relative;
+    display: inline-block;
+}
+.bom1 .box1, .bom2 .box1, .bom3 .box1, .bom4 .box1{
+    width: 43px;
+    height: 43px;
+    margin-top: 8px;
+    background-color: blue;
+    position: absolute;
+    margin-left: -20px;
+    transform: rotate(45deg);
+}
+.bom1 .box2, .bom2 .box2, .bom3 .box2, .bom4 .box2{
+    width: 43px;
+    height: 43px;
+    background-color: white;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 99px;
+    transform: rotate(45deg);
+}
+.section8 .bos3, .bos4{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    margin: 15px 50px;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
+.section8 .bos3{
+    margin-left: 300px;
+}
+.section8 .bos4{
+    margin-left: 350px;
+}
+
+
+@media only screen and (max-width:480px){
+    .logo{
+        width: 80px; 
+    }
+    .menu{
+        float: left;
+        margin-left: 5%;
+        display: none;
+    }
+    
+    .signup button{
+        width: 70px;
+        height: 40px;
+        background-color: black;
+        color: white;
+     }
+     .section2{
+        height: 700px;
+        margin-top: 10px;
+        background-color: aqua;
+    }
+    .right img{
+        width: 100px;
+        height: 100px;
+        margin-top: 30px;
+        margin-right: 120px;
+    } 
+    .section3{
+        height: 800px;
+    }
+    .section3 img{
+        margin-left: 30px;
+        width: 300px;
+
+        padding: 10px;
+    }
+    .section4{
+        height: 1100px;   
+    }
+    .section4 .right h2{
+        margin-left: 50px ;
+        margin-top: 10px;
+    }
+    .section4 .right p{
+        margin-top: 15px;
+        margin: 0px 50px;   
+    }
+    .section6{
+        height: 900px;  
+    }
+    .section6 .left button{
+        margin-left: 50px;
+    }
+    .section6 .right{
+        float: right;
+    }
+    .section6 .left h2{
+        margin-left: 50px ;    
+    }
+    .section6 .left p{
+        margin: 20px 50px;  
+    }
+    .section5{
+        
+        height: 450px;  
+    }
+    .section5 .first, .second, .third{
+        display: block;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .section5 .first{
+        float: left;
+       margin-left: 50px;
+    }
+    .section5 .second{
+        margin-left: 50px; 
+    }
+    .section7{
+        height: 600px;
+        
+    }
+    .section7 .box{
+        width: 85%;
+        height: 530px;
+        margin-left: 30px;
+    }
+    .section7 .box .left h1{
+       font-size: 30px;
+    }
+    .section7 .box .left h5{
+       display: none;
+       
+    }
+    .section8{
+        width: 100%;
+        height: 1300px;
+    }
+}
+
+
